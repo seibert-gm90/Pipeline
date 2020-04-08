@@ -7,9 +7,10 @@ class App extends Component {
   return (
     <AppDiv>
         <Header />
-        <ContainerDiv>
-          {this.props.children}
-        </ContainerDiv>
+          <CenteredHeader>Pipeline</CenteredHeader>
+            <ContainerDiv>
+              {this.props.children}
+          </ContainerDiv>
         <Footer />
       </AppDiv>
   )
