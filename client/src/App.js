@@ -3,6 +3,7 @@ import "./App.css";
 
 
 class App extends Component {
+
   render(){
   return (
     <AppDiv>
@@ -14,6 +15,7 @@ class App extends Component {
         <Footer />
       </AppDiv>
   )
+
 }
 };
 
