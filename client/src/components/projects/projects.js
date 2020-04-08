@@ -1,2 +1,2 @@
 import React from "react";
-import "app.css";
+import "./projects.css";

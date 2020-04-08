@@ -1,2 +1,2 @@
 import React from "react";
-import "app.css";
+import "./tasks.css";
