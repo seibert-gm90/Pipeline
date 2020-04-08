@@ -36,3 +36,4 @@ class RegisterBox extends React.Component {
             </div>
         )
     }
+}
