@@ -7,7 +7,9 @@ import Home from "./pages/Home";
 import Header from "./components/Header/index";
 import Footer from "./components/Footer";
 
-function App() {
+class App extends Component {
+
+  render(){
   return (
     <Router>
       <div>
@@ -19,9 +21,9 @@ function App() {
         </div>
         <div>
         <Footer />
-        </div>
+      </div>
     </Router>
   );
-}
+};
 
 export default App;
