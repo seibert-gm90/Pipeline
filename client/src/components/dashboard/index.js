@@ -1,6 +1,11 @@
 import React from "react"; 
-import { Progress } from 'reactstrap';
+import "./dashboard.css";
 
+import { Progress } from './node_modules/reactstrap';
+
+export function Sidebar (props){
+
+}
 
 export function ProgressTracker(props){
     return(
