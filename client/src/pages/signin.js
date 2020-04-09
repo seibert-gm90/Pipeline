@@ -1,7 +1,7 @@
 import React from "react";
 import "app.css";
 
-class Signin extends Component {
+class SignIn extends Component {
   render() {
     
     <div className="box-container">
@@ -11,4 +11,4 @@ class Signin extends Component {
   }
 }
 
-export default Signin;
+export default SignIn;
