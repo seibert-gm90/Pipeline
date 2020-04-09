@@ -1,9 +1,8 @@
-.App {
-  background-image: url("../public/background-img/pipeline.png");
-  width: 100%;
-  height: 100%;
+body { 
+  background-image: url("./background-img/pipeline.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.Header {
-  background-color: transparent;
+p{
   text-align: center;
 }
