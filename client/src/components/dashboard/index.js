@@ -29,4 +29,4 @@ export function ProgressTracker(props){
     </div>
   );
 };
-    
+export default ProgressTracker
