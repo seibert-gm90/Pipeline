@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 
 import "./App.css";
@@ -7,23 +7,25 @@ import Home from "./pages/Home";
 import Header from "./components/Header/index";
 import Footer from "./components/Footer";
 
-class App extends Component {
+
+export default class App extends Component {
 
   render(){
-  return (
-    <Router>
-      <div>
-        <Header />
-      </div>
-      <div>
-        <Route path="/" component={SignIn} />
-        <Route path="/home" component={Home} /> 
+    return (
+      <Router>
+        <div>
+          <Header />
         </div>
         <div>
-        <Footer />
-      </div>
-    </Router>
-  );
+          <Route path="/" component={SignIn} />
+          <Route path="/home" component={Home} /> 
+          </div>
+          <div>
+          <Footer />
+        </div>
+      </Router>
+    );
+    }
 };
 
-export default App;
+
