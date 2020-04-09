@@ -1,0 +1,8 @@
+body { 
+  background-image: url("./background-img/pipeline.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p{
+  text-align: center;
+}
