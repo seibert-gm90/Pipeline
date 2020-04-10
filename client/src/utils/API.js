@@ -4,10 +4,10 @@ import axios from "axios";
 
 export default {
   getAssistantProgress: function() {
-    return axios.get("/api/pipeline/assistant/progress");
+    return axios.get("/api/assistant/progress");
   },
   getBrokerProgress: function(breed) {
-    return axios.get("/api/pipeline/broker/progress" );
+    return axios.get("/api/broker/progress" );
   },
 };
  
