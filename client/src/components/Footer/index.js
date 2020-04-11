@@ -3,8 +3,10 @@ import "./footer.css";
 
 function Footer() {
     return (
-      <div>
-        <h5>Here is our Footer-  We Love You!</h5>
+      <div className="container">
+      <div className="layer layer-1">
+        <h5>Here is our Footer</h5>
+      </div>
       </div>
     );
   }
