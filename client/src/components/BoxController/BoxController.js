@@ -1,3 +1,6 @@
+import React from "react"
+import "./style.css"
+
 class BoxController extends React.Component {
     constructor(props) {
     super(props);
@@ -29,3 +32,5 @@ render() {
 }
 
 }
+
+export default BoxController

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import React from "react"; 
+=======
+import React from "./node_modules/react"; 
+>>>>>>> c43a1168ad094916a5e848c9bd8650379da8a38c
 import "./dashboard.css";
 
 import { Progress } from './node_modules/reactstrap';
@@ -29,4 +33,4 @@ export function ProgressTracker(props){
     </div>
   );
 };
-    
+export default ProgressTracker

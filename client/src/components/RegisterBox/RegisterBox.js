@@ -1,3 +1,6 @@
+import React from "react"
+import "style.css"
+
 class RegisterBox extends React.Component {
     constructor(props) {
         super(props)
@@ -37,3 +40,5 @@ class RegisterBox extends React.Component {
         )
     }
 }
+
+export default RegisterBox
