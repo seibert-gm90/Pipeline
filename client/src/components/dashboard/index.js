@@ -3,6 +3,14 @@ import "./dashboard.css";
 
 import { Progress } from './node_modules/reactstrap';
 
+export function Dashboard () {
+  return (
+    <div className="container">
+  <div className="layer layer-2">Dashboard</div>
+  </div>
+  )
+}
+
 export function Sidebar (props){
 
 }
@@ -29,4 +37,5 @@ export function ProgressTracker(props){
     </div>
   );
 };
+
 export default ProgressTracker

@@ -3,9 +3,11 @@ import "./header.css";
 
 function Header() {
     return (
-      <div className="head">
-        <h1>Pipeline</h1>
-      </div>
+      <div className="container">
+      <div className="layer layer-1">
+        Header w logo
+        </div>
+        </div>
     );
   }
   
