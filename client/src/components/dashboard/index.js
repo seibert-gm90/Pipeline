@@ -1,4 +1,4 @@
-import React from "react"; 
+import React from "./node_modules/react"; 
 import "./dashboard.css";
 
 import { Progress } from './node_modules/reactstrap';
