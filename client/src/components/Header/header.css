@@ -1,15 +1,10 @@
-.layer-1 {
-grid-column: 1 / span 5;
-height: 10vh;
-display: flex;
-}
+
 body {
-  display: flex;
+  /* display: flex; */
   margin: auto;
   justify-content: center;
   align-items: center;
 }
-
 .container {
   display: grid;
   height: 100%;
@@ -17,18 +12,25 @@ body {
   grid-gap: 5px;
   background-color: rgb(202, 247, 250);
 }
-
-.layer {
+.header {
   color: black;
   background-color: white;
   border: 1px solid black;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
 }
-
 img{
   width: 100px;
   height: 100px;
   object-fit: contain;
+}
+.head {
+  /* position: fixed; */
+  /* left: 0;
+  bottom: 0; */
+  width: 100%;
+  color: black;
+  background-color: white;
+  text-align: center;
 }

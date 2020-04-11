@@ -4,7 +4,7 @@ import "./footer.css";
 function Footer() {
     return (
       <div className="container">
-      <div className="layer layer-1">
+      <div className="layer footer">
         <h5>Here is our Footer</h5>
       </div>
       </div>
@@ -12,3 +12,5 @@ function Footer() {
   }
   
   export default Footer;
+
+ 
