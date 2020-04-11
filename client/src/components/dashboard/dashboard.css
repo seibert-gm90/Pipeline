@@ -22,10 +22,16 @@ body {
   align-items: center;
 }
 .dash {
-  height: 50vh;
-  width: 90%;
-  align-items: center;
+    height: 50vh;
+    width: 90%;
+    align-items: center;
   /* display: flex; */
-  margin: auto;
-  justify-content: center;
+    margin: auto;
+    justify-content: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    background-color: white;
+    text-align: center;
 }
