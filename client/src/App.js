@@ -19,10 +19,15 @@ class App extends Component {
         </div>
         <div>
         <Footer />
+<<<<<<< HEAD
+      </AppDiv>
+  )
+=======
         </div>
     </Router>
   );
 }
+>>>>>>> ecf0f7b1731c5526c6db216270342e3fef368851
 }
 
 export default App;

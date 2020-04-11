@@ -1,15 +1,14 @@
 import React from "react";
-import Header from "../components/Header";
-import "./Home";
+import "app.css";
 
-
-function SignIn () {
-    return (
-      <div>
-         <Header />
-        <p>Sign in box here</p>
-      </div>
-    );
+class SignIn extends Component {
+  render() {
+    
+    <div className="box-container">
+      {this.state.isLoginOpen && <LoginBox />}
+      {this.state.isRegisterOpen && <RegisterBox />}
+    </div>;
   }
-  
-  export default SignIn;
+}
+
+export default SignIn;
