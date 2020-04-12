@@ -4,9 +4,8 @@ import "./dashboard.css";
 
 function Dashboard () {
   return (
-    <div className="container">
-  <div className="layer dash">
-    Dashboard
+    <div>
+  <div className="container fluid dash">
     </div>
   </div>
   )

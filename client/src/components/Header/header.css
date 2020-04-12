@@ -1,36 +1,13 @@
-
-body {
-  /* display: flex; */
-  margin: auto;
-  justify-content: center;
-  align-items: center;
-}
-.container {
-  display: grid;
-  height: 100%;
-  width: 100%;
-  grid-gap: 5px;
-  background-color: rgb(202, 247, 250);
-}
-.header {
-  color: black;
-  background-color: white;
-  border: 1px solid black;
-  /* display: flex; */
-  justify-content: center;
-  align-items: center;
-}
 img{
-  width: 100px;
+  width: auto;
   height: 100px;
   object-fit: contain;
+  margin-top: 12px;
 }
 .head {
-  /* position: fixed; */
-  /* left: 0;
-  bottom: 0; */
+  height: 125px;
   width: 100%;
-  color: black;
-  background-color: white;
   text-align: center;
+  /* margin: 0 10px 10px 0;
+  border: 1px solid black; */
 }

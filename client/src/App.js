@@ -13,8 +13,8 @@ class App extends Component {
   render(){
   return (
     <Router>
-
-      <div >
+  
+      <div>
         <Header />
         <Route path="/" component={SignIn} />
         <Route path="/home" component={Home} /> 
@@ -22,6 +22,7 @@ class App extends Component {
         <div>
         <Footer />
         </div>
+      
     </Router>
 
   );

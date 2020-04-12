@@ -1,12 +1,6 @@
-h5{
-    text-align: center;
-}
 .footer {
-    /* position: fixed; */
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: black;
-    background-color: white;
-    text-align: center;
+  height:  40px;
+  width: 100%;
+  /* background-color: rgb(174, 204, 204); */
+  /* border: 1px solid black;   */
 }

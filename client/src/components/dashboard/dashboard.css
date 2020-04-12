@@ -1,37 +1,10 @@
-body {
-  /* display: flex; */
-  margin: auto;
-  justify-content: center;
-  align-items: center;
-}
-
-.container {
-  display: grid;
-  height: 100%;
-  width: 100%;
-  grid-gap: 5px;
-  background-color: rgb(202, 247, 250);
-}
-
-.layer {
-  color: black;
-  background-color: white;
-  border: 1px solid black;
-  /* display: flex; */
-  justify-content: center;
-  align-items: center;
-}
 .dash {
-    height: 50vh;
-    width: 90%;
-    align-items: center;
-  /* display: flex; */
-    margin: auto;
-    justify-content: center;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: black;
-    background-color: white;
-    text-align: center;
+  height: 500px;
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid black;
+  margin: 0px 10px 10px 0; */
+  background-color: rgb(107, 173, 173);
 }
+
+
