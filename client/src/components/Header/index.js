@@ -4,8 +4,10 @@ import "./header.css";
 function Header() {
     return (
       <div className="container">
-      <div className="layer layer-1">
-        Header w logo
+      <div className="header head">
+      <img
+        src="logo.png"
+        alt="logo"/>
         </div>
         </div>
     );
