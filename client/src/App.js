@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Hamburger from "./components/Hamburger";
 
 class App extends Component {
 
@@ -16,12 +17,16 @@ class App extends Component {
   
       <div>
         <Header />
+        <Hamburger />
         <Route path="/" component={SignIn} />
         <Route path="/home" component={Home} /> 
         </div>
+        <span>
         <div>
         <Footer />
         </div>
+        </span>
+        
       
     </Router>
 
