@@ -1,0 +1,21 @@
+.dash {
+  height: 500px;
+  background-color: rgb(107, 173, 173);
+  margin-bottom: 5px;
+}
+.container {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.panel {
+  margin-top: 50px;
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  box-shadow: 0px 0px 5px #c9c9c9;
+}
+
+
+

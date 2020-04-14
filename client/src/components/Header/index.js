@@ -3,9 +3,13 @@ import "./header.css";
 
 function Header() {
     return (
-      <div className="head">
-        <h1>Pipeline</h1>
-      </div>
+      <div>
+      <div className="container fluid head">
+      <img
+        src="logo.png"
+        alt="logo"/>
+        </div>
+        </div>
     );
   }
   

@@ -1,8 +1,13 @@
-h1{
-    font-family: 'Bowlby One SC', cursive;
-    text-align: center;
-    font-size: 15vh;
+img{
+  width: auto;
+  height: 100px;
+  object-fit: contain;
+  margin-top: 12px;
 }
-.head{
-    height: 5vh;
+.head {
+  height: 125px;
+  width: 100%;
+  text-align: center;
+  /* margin: 0 10px 10px 0;
+  border: 1px solid black; */
 }
