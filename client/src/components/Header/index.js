@@ -8,6 +8,7 @@ function Header() {
       <img
         src="logo.png"
         alt="logo"/>
+        <a href="" class="logout">Logout</a>
         </div>
         </div>
     );
