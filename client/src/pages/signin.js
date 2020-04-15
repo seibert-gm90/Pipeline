@@ -7,7 +7,6 @@ import Dashboard from "../components/dashboard/index";
 function SignIn () {
     return (
       <div>
-      <Dashboard/>
       </div>
     );
   }

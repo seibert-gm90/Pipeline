@@ -1,4 +1,4 @@
-img{
+img {
   width: auto;
   height: 100px;
   object-fit: contain;
@@ -8,6 +8,14 @@ img{
   height: 125px;
   width: 100%;
   text-align: center;
-  /* margin: 0 10px 10px 0;
-  border: 1px solid black; */
+}
+
+.logout {
+  text-decoration: none !important;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  float: right;
+  margin-top: 10px;
+  margin-right: -4;
+  margin-right: -17px;
 }
