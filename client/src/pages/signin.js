@@ -1,7 +1,6 @@
 import React from "react";
 
 import "./Home";
-import Dashboard from "../components/dashboard/index";
 
 
 function SignIn () {

@@ -1,7 +1,7 @@
 import React from "react";
 import Dashboard from "../components/Dashboard"
 
-import "./signin";
+import "./SignIn";
 
 
 function Home() {
