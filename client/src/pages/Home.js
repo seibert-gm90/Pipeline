@@ -1,5 +1,5 @@
 import React from "react";
-import Dashboard from "./components/Dashboard/index"
+import Dashboard from "../components/dashboard/index"
 import "./signin";
 
 
