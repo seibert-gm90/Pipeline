@@ -1,5 +1,5 @@
-import React from "react"; 
-import { Progress } from 'reactstrap';
+import React from "./node_modules/react"; 
+import { Progress } from './node_modules/reactstrap';
 
 
 export function ProgressTracker(props){
