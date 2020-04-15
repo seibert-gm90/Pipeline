@@ -5,8 +5,7 @@ import "./hamburger.css";
 function Hamburger () {
   return (
     <nav role="navigation">
-  <div id="menuToggle">
-
+    <div id="menuToggle">
     <input type="checkbox"/>
     <span></span>
     <span></span>
