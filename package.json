@@ -22,6 +22,7 @@
   "dependencies": {
     "express": "^4.16.3",
     "if-env": "^1.0.4",
-    "node": "^13.12.0"
-  }
+    "node": "13.10.1"
+  }, 
+  "engines": {"node":"13.10.1"}
 }
