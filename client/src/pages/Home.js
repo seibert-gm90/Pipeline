@@ -7,7 +7,6 @@ import Dashboard from "../components/dashboard/"
 function Home() {
   return (
     <div>
-      <h1>this is where dashboard will go. </h1>
       <Dashboard />
     </div>
   );
