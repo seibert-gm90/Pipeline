@@ -27,7 +27,7 @@
 .item {
   width: 400px;
   height: 150px;
-  margin: 25px auto;
+  margin: 30px auto;
   padding-top: 75px;
   background: #fff;
   border: 1px solid #dbdbdb;
@@ -40,10 +40,10 @@
 .right {
   float: right;
   clear: left;
-  margin-right: 6vh;
+  margin-right: 10vh;
 }
 .left {
   float: left;
   clear: right;
-  margin-left: 6vh;
+  margin-left: 8vh;
 }

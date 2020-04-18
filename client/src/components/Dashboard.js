@@ -11,7 +11,7 @@ function Dashboard() {
   return (
     <div className="dash">
       <div class="container panel">
-        <h1 className="move">Case info here</h1>
+        <h1 className="move">Open Projects Here</h1>
       </div>
 
      
