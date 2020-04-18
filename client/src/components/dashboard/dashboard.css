@@ -1,9 +1,10 @@
 .dash {
-  height: 800px;
+  min-height: 800px;
   background-image: url(../../background-img/pipes.png);
   background-color: rgb(147, 202, 202);
   margin-bottom: 5px;
   padding-top: 20px;
+  
 }
 .container {
   margin: 0 auto;
@@ -23,4 +24,16 @@
   margin-top: 20px;
 }
 
-
+.item {
+  width: 400px;
+  height: 150px;
+  margin: 50px auto;
+  padding-top: 75px;
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  box-shadow: 0px 0px 5px #c9c9c9;
+  text-align: center;
+  color: rgb(147, 202, 202);
+  border-radius: 2px;
+  margin-bottom: 0;
+}

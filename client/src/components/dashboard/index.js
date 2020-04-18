@@ -1,19 +1,35 @@
-import React from "react"; 
+import React from "react";
 import "./dashboard.css";
+import AOS from "aos";
 
+AOS.init();
+AOS.init({
+  duration: 1200
+});
 
-function Dashboard () {
+function Dashboard() {
   return (
-
     <div className="dash">
-    <div class="container panel">
-    <h1 className="move">Case info here</h1>
+      <div class="container panel">
+        <h1 className="move">Case info here</h1>
+      </div>
+
+     
+      <div class="item right" data-aos="fade-right">
+        Data Here
+      </div>
+      <div class="item left" data-aos="fade-left">
+        Data Here
+      </div>
+      <div class="item right" data-aos="fade-right">
+        Data Here
+      </div>
+      <div class="item left" data-aos="fade-left">
+        Data Here
+      </div>
+     
+      
     </div>
-    <div class="container panel">
-    <h1 className="move">Animate On Scroll here</h1>
-    </div>
-    </div>
-    
-  )
+  );
 }
-export default Dashboard
+export default Dashboard;
