@@ -1,12 +1,13 @@
 import React from "react";
 import Dashboard from "../components/Dashboard"
 
-import "./SignIn";
+// import "./signin";
 
 
 function Home() {
   return (
     <div>
+      <h1>this is where dashboard will go. </h1>
       <Dashboard />
     </div>
   );

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Route, BrowserRouter as Router } from 'react-router-dom'
 
 import "./App.css";
-import SignIn from "./pages/SignIn";
+import SignIn from "./pages/signin";
 import Home from "./pages/Home";
 
 import Footer from "./components/Footer";
