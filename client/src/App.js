@@ -17,7 +17,6 @@ class App extends Component {
   
       <div>
         <Header />
-        <Hamburger />
         <Route path="/" component={SignIn} />
         <Route path="/home" component={Home} /> 
         </div>
