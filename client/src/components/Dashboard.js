@@ -1,5 +1,6 @@
 import React from "react"; 
-
+import AOS from "aos";
+import "./dashboard/dashboard.css";
 
 AOS.init();
 AOS.init({
@@ -10,7 +11,7 @@ function Dashboard() {
   return (
     <div className="dash">
       <div class="container panel">
-        <h1 className="move">Case info here</h1>
+        <h1 className="move">Open Projects Here</h1>
       </div>
 
      
@@ -20,12 +21,7 @@ function Dashboard() {
       <div class="item left" data-aos="fade-left">
         Data Here
       </div>
-      <div class="item right" data-aos="fade-right">
-        Data Here
-      </div>
-      <div class="item left" data-aos="fade-left">
-        Data Here
-      </div>
+     
      
       
     </div>

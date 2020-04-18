@@ -20,14 +20,14 @@
   height: 350px;
   margin-top: 21px;
 }
-.move {
+/* .move {
   margin-top: 20px;
-}
+} */
 
 .item {
   width: 400px;
   height: 150px;
-  margin: 50px auto;
+  margin: 30px auto;
   padding-top: 75px;
   background: #fff;
   border: 1px solid #dbdbdb;
@@ -36,4 +36,14 @@
   color: rgb(147, 202, 202);
   border-radius: 2px;
   margin-bottom: 0;
+}
+.right {
+  float: right;
+  clear: left;
+  margin-right: 10vh;
+}
+.left {
+  float: left;
+  clear: right;
+  margin-left: 8vh;
 }
