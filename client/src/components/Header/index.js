@@ -12,6 +12,9 @@ function Header() {
           <span></span>
 
           <ul id="menu">
+          <a href="#">
+              <li>Dashboard</li>
+            </a>
             <a href="#">
               <li>Calendar</li>
             </a>
@@ -19,7 +22,7 @@ function Header() {
               <li>Notes</li>
             </a>
             <a href="#">
-              <li>Chat</li>
+              <li>Chat (Comming Soon)</li>
             </a>
             <a href="#">
               <li>Log Out</li>
