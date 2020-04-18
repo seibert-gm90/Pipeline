@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import { Button, FormGroup, FormControl, ControlLabel } from "react-bootstrap";
 import { Auth } from "aws-amplify";
+import { AppContext } from "./libs/contextLib";
 import "./Login.css";
 
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [isAuthenticated, userHasAuthenticated] = useState(false);
 
   function validateForm() {
     return email.length > 0 && password.length > 0;
@@ -20,6 +22,23 @@ async function handleSubmit(event) {
   } catch (e) {
     alert(e.message);
   }
+}
+
+useEffect(() => {
+  onLoad();
+}, []);
+
+async function onLoad() {
+  try {
+    await Auth.currentSession();
+    userHasAuthenticated(true);
+  } catch (e) {
+    if (e !== "No current user") {
+      alert(e);
+    }
+  }
+
+  setIsAuthenticating(false);
 }
 
   return (
