@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Route, BrowserRouter as Router } from 'react-router-dom'
 
 import "./App.css";
-import SignIn from "./pages/signin";
+import Login from "./pages/Login";
 import Home from "./pages/Home";
 
 import Footer from "./components/Footer";
@@ -14,21 +14,21 @@ class App extends Component {
   render(){
   return (
     <Router>
-  
       <div>
         <Header />
-        <Route path="/" component={SignIn} />
-        <Route path="/home" component={Home} /> 
-        </div>
-        <span>
+        <Hamburger />
+        <Route path="/" component={Login} />
+        <Route path="/home" component={Home} />
+        <AppContext.Provider value={{ isAuthenticated, userHasAuthenticated }}>
+          <Routes />
+        </AppContext.Provider>
+      </div>
+      <span>
         <div>
-        <Footer />
+          <Footer />
         </div>
-        </span>
-        
-      
+      </span>
     </Router>
-
   );
 }
 }
