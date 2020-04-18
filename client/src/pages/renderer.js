@@ -1,6 +1,7 @@
 import React from "react";
 import reactDOM from "react-dom";
 import "./renderer.css";
+import { withRouter } from "react-router-dom" 
 
 import TransitionGroup from "react-transition-group";
 
@@ -276,6 +277,27 @@ class RegisterBox extends React.Component {
                 ></div>
               </div>
             )}
+          </div>
+          <div className="role-select">
+            {["Primary"].map((variant) => (
+              <>
+                <DropdownButton
+                  as={ButtonGroup}
+                  key={variant}
+                  id={`dropdown-variants-${variant}`}
+                  variant={variant.toLowerCase()}
+                  title={variant}
+                  onChange={}
+                >
+                  <Dropdown.Item 
+                  eventKey="1"
+                  href="/assistant">Assistant</Dropdown.Item>
+                  <Dropdown.Item 
+                  eventKey="2"
+                  href="/Broker">Broker</Dropdown.Item>
+                </DropdownButton>{" "}
+              </>
+            ))}
           </div>
 
           <button
