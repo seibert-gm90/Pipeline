@@ -12,6 +12,8 @@ import { useFormFields } from "../libs/hooksLib";
 import { onError } from "../libs/errorLib";
 import "./Signup.css";
 
+
+
 export default function Signup() {
   const [fields, handleFieldChange] = useFormFields({
     email: "",
@@ -55,7 +57,7 @@ export default function Signup() {
   function renderConfirmationForm() {
     return (
       <form onSubmit={handleConfirmationSubmit}>
-        <FormGroup controlId="confirmationCode" bsSize="large">
+        <FormGroup controlId="confirmationCode" bssize="large">
           <ControlLabel>Confirmation Code</ControlLabel>
           <FormControl
             autoFocus
@@ -68,7 +70,7 @@ export default function Signup() {
         <LoaderButton
           block
           type="submit"
-          bsSize="large"
+          bssize="large"
           isLoading={isLoading}
           disabled={!validateConfirmationForm()}
         >
@@ -81,7 +83,7 @@ export default function Signup() {
   function renderForm() {
     return (
       <form onSubmit={handleSubmit}>
-        <FormGroup controlId="email" bsSize="large">
+        <FormGroup controlId="email" bssize="large">
           <ControlLabel>Email</ControlLabel>
           <FormControl
             autoFocus
@@ -90,7 +92,7 @@ export default function Signup() {
             onChange={handleFieldChange}
           />
         </FormGroup>
-        <FormGroup controlId="password" bsSize="large">
+        <FormGroup controlId="password" bssize="large">
           <ControlLabel>Password</ControlLabel>
           <FormControl
             type="password"
@@ -98,7 +100,7 @@ export default function Signup() {
             onChange={handleFieldChange}
           />
         </FormGroup>
-        <FormGroup controlId="confirmPassword" bsSize="large">
+        <FormGroup controlId="confirmPassword" bssize="large">
           <ControlLabel>Confirm Password</ControlLabel>
           <FormControl
             type="password"
@@ -109,7 +111,7 @@ export default function Signup() {
         <LoaderButton
           block
           type="submit"
-          bsSize="large"
+          bssize="large"
           isLoading={isLoading}
           disabled={!validateForm()}
         >

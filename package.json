@@ -20,9 +20,12 @@
     "nodemon": "^1.18.7"
   },
   "dependencies": {
+    "aws-amplify": "^3.0.8",
     "express": "^4.16.3",
     "if-env": "^1.0.4",
     "node": "13.10.1"
-  }, 
-  "engines": {"node":"13.10.1"}
+  },
+  "engines": {
+    "node": "13.10.1"
+  }
 }

@@ -44,7 +44,7 @@ async function onLoad() {
   return (
     <div className="Login">
       <form onSubmit={handleSubmit}>
-        <FormGroup controlId="email" bsSize="large">
+        <FormGroup controlId="email" bssize="large">
           <FormLabel>Email</FormLabel>
           <FormControl
             autoFocus
@@ -53,7 +53,7 @@ async function onLoad() {
             onChange={(e) => setEmail(e.target.value)}
           />
         </FormGroup>
-        <FormGroup controlId="password" bsSize="large">
+        <FormGroup controlId="password" bssize="large">
           <FormLabel>Password</FormLabel>
           <FormControl
             value={password}
@@ -65,7 +65,7 @@ async function onLoad() {
           <Dropdown.Item href="#/action-1"></Dropdown.Item>
           <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
         </DropdownButton> */}
-        <Button block bsSize="large" disabled={!validateForm()} type="submit">
+        <Button block bssize="large" disabled={!validateForm()} type="submit">
           Login
         </Button>
       </form>
