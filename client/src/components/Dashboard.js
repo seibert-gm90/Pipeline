@@ -10,15 +10,15 @@ AOS.init({
 function Dashboard() {
   return (
     <div className="dash">
-      <div class="container panel">
+      <div className="container panel">
         <h1 className="move">Open Projects Here</h1>
       </div>
 
      
-      <div class="item right" data-aos="fade-right">
+      <div className="item right" data-aos="fade-right">
         Data Here
       </div>
-      <div class="item left" data-aos="fade-left">
+      <div className="item left" data-aos="fade-left">
         Data Here
       </div>
      

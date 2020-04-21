@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { Button, FormGroup, FormControl, ControlLabel } from "react-bootstrap";
+import { Button, FormGroup, FormControl, FormLabel } from "react-bootstrap";
 import { Auth } from "aws-amplify";
-import { AppContext } from "./libs/contextLib";
-import "./Login.css";
+import { AppContext } from "../../libs/contextLib";
+import "./login.css";
 
 export default function Login() {
   const [email, setEmail] = useState("");
@@ -24,9 +24,9 @@ async function handleSubmit(event) {
   }
 }
 
-useEffect(() => {
-  onLoad();
-}, []);
+// useEffect(() => {
+//   onLoad();
+// }, []);
 
 async function onLoad() {
   try {
@@ -38,14 +38,14 @@ async function onLoad() {
     }
   }
 
-  setIsAuthenticating(false);
+  // setIsAuthenticating(false);
 }
 
   return (
     <div className="Login">
       <form onSubmit={handleSubmit}>
-        <FormGroup controlId="email" bsSize="large">
-          <ControlLabel>Email</ControlLabel>
+        <FormGroup controlId="email" bssize="large">
+          <FormLabel>Email</FormLabel>
           <FormControl
             autoFocus
             type="email"
@@ -53,19 +53,19 @@ async function onLoad() {
             onChange={(e) => setEmail(e.target.value)}
           />
         </FormGroup>
-        <FormGroup controlId="password" bsSize="large">
-          <ControlLabel>Password</ControlLabel>
+        <FormGroup controlId="password" bssize="large">
+          <FormLabel>Password</FormLabel>
           <FormControl
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             type="password"
           />
         </FormGroup>
-        <DropdownButton id="dropdown-basic-button" title="Dropdown button">
+        {/* <DropdownButton id="dropdown-basic-button" title="Dropdown button">
           <Dropdown.Item href="#/action-1"></Dropdown.Item>
           <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-        </DropdownButton>
-        <Button block bsSize="large" disabled={!validateForm()} type="submit">
+        </DropdownButton> */}
+        <Button block bssize="large" disabled={!validateForm()} type="submit">
           Login
         </Button>
       </form>
