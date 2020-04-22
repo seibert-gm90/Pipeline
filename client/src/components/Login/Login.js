@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Button, FormGroup, FormControl, FormLabel } from "react-bootstrap";
 import Amplify, { Auth } from "aws-amplify";
-// import { withAuthenticator, AmplifySignOut } from "@aws-amplify/ui-react";
 import { AppContext } from "../../libs/contextLib";
 import "./login.css";
 import Fix from "../../aws-exports"
