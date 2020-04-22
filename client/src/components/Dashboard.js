@@ -1,6 +1,8 @@
 import React from "react"; 
 import AOS from "aos";
 import "./dashboard/dashboard.css";
+import ProgressTracker from "./Progress Tracker";
+
 
 AOS.init();
 AOS.init({
@@ -12,11 +14,12 @@ function Dashboard() {
     <div className="dash">
       <div class="container panel">
         <h1 className="move">Open Projects Here</h1>
+        <ProgressTracker />
       </div>
 
      
       <div class="item right" data-aos="fade-right">
-        Data Here
+        
       </div>
       <div class="item left" data-aos="fade-left">
         Data Here
