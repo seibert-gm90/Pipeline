@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Button, FormGroup, FormControl, FormLabel } from "react-bootstrap";
 import { Auth } from "aws-amplify";
+import { withAuthenticator, AmplifySignOut } from "@aws-amplify/ui-react";
 import { AppContext } from "../../libs/contextLib";
 import "./login.css";
 
@@ -24,9 +25,9 @@ async function handleSubmit(event) {
   }
 }
 
-// useEffect(() => {
-//   onLoad();
-// }, []);
+useEffect(() => {
+  onLoad();
+}, []);
 
 async function onLoad() {
   try {
@@ -38,7 +39,7 @@ async function onLoad() {
     }
   }
 
-  // setIsAuthenticating(false);
+  setIsAuthenticating(false);
 }
 
   return (
