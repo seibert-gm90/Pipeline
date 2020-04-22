@@ -20,10 +20,13 @@
     "nodemon": "^1.18.7"
   },
   "dependencies": {
+    "@aws-amplify/ui-react": "^0.2.3",
+    "@aws-amplify/ui-vue": "^0.2.2",
     "aws-amplify": "^3.0.8",
     "express": "^4.16.3",
     "if-env": "^1.0.4",
-    "node": "13.10.1"
+    "node": "13.10.1",
+    "react": "^16.13.1"
   },
   "engines": {
     "node": "13.10.1"

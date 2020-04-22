@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import { Button, FormGroup, FormControl, FormLabel } from "react-bootstrap";
-import { Auth } from "aws-amplify";
-import { withAuthenticator, AmplifySignOut } from "@aws-amplify/ui-react";
+import Amplify, { Auth } from "aws-amplify";
+// import { withAuthenticator, AmplifySignOut } from "@aws-amplify/ui-react";
 import { AppContext } from "../../libs/contextLib";
 import "./login.css";
+import Fix from "../../aws-exports"
+
+Amplify.configure(Fix);
 
 export default function Login() {
   const [email, setEmail] = useState("");
@@ -18,6 +21,7 @@ async function handleSubmit(event) {
   event.preventDefault();
 
   try {
+    console.log(email)
     await Auth.signIn(email, password);
     alert("Logged in");
   } catch (e) {
@@ -25,22 +29,6 @@ async function handleSubmit(event) {
   }
 }
 
-useEffect(() => {
-  onLoad();
-}, []);
-
-async function onLoad() {
-  try {
-    await Auth.currentSession();
-    userHasAuthenticated(true);
-  } catch (e) {
-    if (e !== "No current user") {
-      alert(e);
-    }
-  }
-
-  setIsAuthenticating(false);
-}
 
   return (
     <div className="Login">

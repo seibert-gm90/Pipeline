@@ -10,6 +10,11 @@
             "StackName": "amplify-pipeline-dev-211836",
             "StackId": "arn:aws:cloudformation:us-east-2:499518503502:stack/amplify-pipeline-dev-211836/07935a00-836e-11ea-b053-022fd555c652",
             "AmplifyAppId": "d2v4gsnaoeqcfc"
+        },
+        "categories": {
+            "auth": {
+                "pipelinec4716178": {}
+            }
         }
     }
 }
