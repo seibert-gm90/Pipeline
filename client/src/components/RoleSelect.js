@@ -15,14 +15,14 @@ function RoleSelect() {
       </div>
 
       <div className="item right" data-aos="fade-right">
-        <button type="button" className="btn btn-success">
+        <a href="/home" type="button" className="btn btn-success">
           Broker
-        </button>
+        </a>
       </div>
       <div className="item left" data-aos="fade-left">
-        <button type="button" className="btn btn-primary">
+        <a href="/home" type="button" className="btn btn-primary">
           Assistant
-        </button>
+        </a>
       </div>
     </div>
   );

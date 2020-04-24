@@ -32,7 +32,7 @@ function Footer() {
           <ul>
             <li className="list">Pipeline</li>
             <li className="list">410 Westhapton Way</li>
-            <li className="list">Richond, VA</li>
+            <li className="list">Richmond, VA</li>
             <li className="list">23173</li>
             <li className="list google">
               <a href="https://goo.gl/maps/mWEHKqH5Q6s">View on Google Maps</a>

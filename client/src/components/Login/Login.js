@@ -28,7 +28,7 @@ async function handleSubmit(event) {
     if (res) {
           console.log("Successfully logged in!");
           console.log(res);
-          history.push("/home")
+          history.push("/role")
     }
 
   } catch (e) {
