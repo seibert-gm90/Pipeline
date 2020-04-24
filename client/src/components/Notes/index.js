@@ -1,21 +1,15 @@
-import React from "react"; 
+import React from "react";
 import "./notes.css";
 
-
-
-function StickyNotes() {
-  $("#create").click(function() {
-    $(this).before("<textarea></textarea>");
-  });
+export default function StickyNotes(props) {
   return (
-    <textarea>This is a sticky note.  Leave yourself a message.</textarea>
-    <div id="create">+</div> 
+    <div>
+      <textarea>This is a sticky note. Leave yourself a message.</textarea>
+      <div id="create">+</div>
+    </div>
   );
 }
 
-
-
-
-export default StickyNotes;
-
-
+$("#create").click(function() {
+  $(this).before("<textarea></textarea>");
+});
