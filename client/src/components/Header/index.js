@@ -22,7 +22,7 @@ function Header() {
               <li>Notes</li>
             </a>
             <a href="#">
-              <li>Chat (Comming Soon)</li>
+              <li>Chat (Coming Soon)</li>
             </a>
             <a href="#">
               <li>Log Out</li>
