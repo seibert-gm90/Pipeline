@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom"
 import { Button, FormGroup, FormControl, FormLabel } from "react-bootstrap";
 import Amplify, { Auth } from "aws-amplify";
 import { AppContext } from "../../libs/contextLib";
@@ -11,6 +12,8 @@ export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [isAuthenticated, userHasAuthenticated] = useState(false);
+  const history = useHistory()
+
 
   function validateForm() {
     return email.length > 0 && password.length > 0;
@@ -21,8 +24,13 @@ async function handleSubmit(event) {
 
   try {
     console.log(email)
-    await Auth.signIn(email, password);
-    alert("Logged in");
+    const res=await Auth.signIn(email, password)
+    if (res) {
+          console.log("Successfully logged in!");
+          console.log(res);
+          history.push("/home")
+    }
+
   } catch (e) {
     alert(e.message);
   }
