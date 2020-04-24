@@ -7,7 +7,7 @@ import Home from "./pages/Home";
 
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Hamburger from "./components/Hamburger";
+
 
 class App extends Component {
 
