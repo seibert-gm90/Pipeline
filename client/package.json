@@ -5,7 +5,9 @@
   "proxy": "http://localhost:3001/",
   "dependencies": {
     "aos": "^2.3.4",
+    "aws-amplify": "^3.0.8",
     "react": "^16.13.1",
+    "react-bootstrap": "^1.0.0",
     "react-calendar": "^3.0.1",
     "react-dom": "^16.6.3",
     "react-router-dom": "^5.1.2",

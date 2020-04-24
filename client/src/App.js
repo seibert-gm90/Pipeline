@@ -8,20 +8,24 @@ import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Dashboard from "./components/Dashboard";
+import { AppContext } from "./libs/contextLib";
+
 
 
 class App extends Component {
+
+  
 
   render(){
   return (
     <Router>
       <div>
         <Header />
-        <Dashboard />
-        {/* <Route path="/" component={Login} /> */}
+        <Route exact path="/" component={Login} />
+        <Route exact path="/login">
+          <Login />
+        </Route>
         <Route path="/home" component={Home} />
-        {/* <AppContext.Provider value={{ isAuthenticated, userHasAuthenticated }}>
-        </AppContext.Provider> */}
       </div>
       <span>
         <div>

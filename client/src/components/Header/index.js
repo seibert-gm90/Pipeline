@@ -33,7 +33,7 @@ function Header() {
 
       <div className="container fluid head">
         <img src="logo.png" alt="logo" />
-        <a href="" class="logout">
+        <a href="" className="logout">
           Logout
         </a>
       </div>
