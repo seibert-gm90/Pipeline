@@ -4,7 +4,7 @@ import { Button, FormGroup, FormControl, FormLabel } from "react-bootstrap";
 import Amplify, { Auth } from "aws-amplify";
 import { AppContext } from "../../libs/contextLib";
 import "./login.css";
-import Fix from "../../aws-exports"
+import Fix from "./aws-exports"
 
 Amplify.configure(Fix);
 
@@ -28,7 +28,7 @@ async function handleSubmit(event) {
     if (res) {
           console.log("Successfully logged in!");
           console.log(res);
-          history.push("/home")
+          history.push("/role")
     }
 
   } catch (e) {
