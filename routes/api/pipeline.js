@@ -4,7 +4,7 @@ const pipelineController = require("../../controllers/pipelineController");
 // Matches with "/api/books"
 router.route("/pipeline")
   .get(pipelineController.findAll)
-  .post(pipelineController.create);
+  .post(pipelineController.createAssistant);
 
 // Matches with "/api/books/:id"
 router
