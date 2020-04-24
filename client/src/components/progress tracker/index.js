@@ -1,19 +1,13 @@
-import React from "./node_modules/react"; 
-import { Progress } from './node_modules/reactstrap';
+import React from "react"; 
+import { Progress } from 'reactstrap';
 
 
-export function ProgressTracker(props){
+export default function ProgressTracker(props){
     return(
         <div>
       <div className="text-center">1 of 5</div>
       <Progress className="mb-3" value="1" max="5" />
-      <div className="text-center">50 of 135</div>
-      <Progress className="mb-3" value={50} max="135" />
-      <div className="text-center">75 of 111</div>
-      <Progress className="mb-3" value={75} max={111} />
-      <div className="text-center">463 of 500</div>
-      <Progress className="mb-3" value="463" max={500} />
-
+     
       <div className="text-center">Various (40) of 55</div>
       <Progress multi>
         <Progress bar value="5" max={55}>5</Progress>
@@ -24,4 +18,4 @@ export function ProgressTracker(props){
     </div>
   );
 };
-    
+
