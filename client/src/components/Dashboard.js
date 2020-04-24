@@ -1,7 +1,8 @@
 import React from "react"; 
 import AOS from "aos";
 import "./dashboard/dashboard.css";
-import ProgressTracker from "./Progress Tracker";
+import ProgressTracker from "./progress tracker";
+
 
 
 AOS.init();
