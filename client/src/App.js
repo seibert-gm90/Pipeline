@@ -2,33 +2,36 @@ import React, { Component } from "react";
 import { Route, BrowserRouter as Router } from 'react-router-dom'
 
 import "./App.css";
-import SignIn from "./pages/signin";
+import Login from "./components/Login/Login";
 import Home from "./pages/Home";
 
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import { AppContext } from "./libs/contextLib";
+
 
 
 class App extends Component {
 
+  
+
   render(){
   return (
     <Router>
-  
       <div>
         <Header />
-        <Route path="/" component={SignIn} />
-        <Route path="/home" component={Home} /> 
-        </div>
-        <span>
+        <Route exact path="/" component={Login} />
+        <Route exact path="/login">
+          <Login />
+        </Route>
+        <Route path="/home" component={Home} />
+      </div>
+      <span>
         <div>
-        <Footer />
+          <Footer />
         </div>
-        </span>
-        
-      
+      </span>
     </Router>
-
   );
 }
 }
