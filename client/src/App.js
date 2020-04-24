@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import RoleSelect from "./components/RoleSelect"
 import { AppContext } from "./libs/contextLib";
 
 
@@ -25,6 +26,7 @@ class App extends Component {
           <Login />
         </Route>
         <Route path="/home" component={Home} />
+        <Route path="/role" component={RoleSelect} />
       </div>
       <span>
         <div>
