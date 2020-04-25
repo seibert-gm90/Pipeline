@@ -1,4 +1,4 @@
-/* @import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
 .login-page {
   width: 360px;
@@ -55,12 +55,12 @@
 .form .register-form {
   display: none;
 }
-.container {
+/* .container {
   position: relative;
   z-index: 1;
   max-width: 300px;
   margin: 0 auto;
-}
+} */
 .container:before, .container:after {
   content: "";
   display: block;
@@ -97,4 +97,4 @@ body {
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
-} */
+}
