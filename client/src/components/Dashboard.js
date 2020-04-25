@@ -17,17 +17,12 @@ function Dashboard() {
         <h1 className="move">Open Projects Here</h1>
         <ProgressTracker />
       </div>
-
-     
       <div className="item right" data-aos="fade-right">
         Data Here
       </div>
       <div className="item left" data-aos="fade-left">
         Data Here
       </div>
-     
-     
-      
     </div>
   );
 }
