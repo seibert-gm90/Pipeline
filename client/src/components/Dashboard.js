@@ -10,6 +10,7 @@ AOS.init({
   duration: 1200
 });
 
+
 function Dashboard() {
   return (
     <div className="dash">

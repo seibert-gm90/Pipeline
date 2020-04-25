@@ -23,6 +23,7 @@
     "dom-helpers": "^5.1.4",
     "express": "^4.16.3",
     "if-env": "^1.0.4",
+    "mongoose": "^5.9.10",
     "node": "13.10.1",
     "react": "^16.13.1",
     "react-transition-group": "^4.3.0"
