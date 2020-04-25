@@ -14,7 +14,15 @@ class Login extends Component {
         <input type="text" name="userid" />
         Password
         <input type="password" name="pswrd" />
-        <input type="button" onclick="check(this.form)" value="Login" />
+        <a
+          href="/role"
+          class="btn btn-primary btn-lg active"
+          role="button"
+          aria-pressed="true"
+        >
+          Login
+        </a>
+       
       </form>
     );
   }
