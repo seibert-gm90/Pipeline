@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { useHistory } from "react-router-dom";
 // import { Button, FormGroup, FormControl, FormLabel } from "react-bootstrap";
-
 import "./login.css";
 
 class Login extends Component {
@@ -14,14 +13,8 @@ class Login extends Component {
             <input type="password" placeholder="password" />
             <input type="text" placeholder="email address" />
 
-            <a
-          href="/role"
-          class="btn btn-primary btn-lg active"
-          role="button"
-          aria-pressed="true"
-        ></a>
-        
-            {/* <button>create</button> */}
+    
+            <button>create</button>
             <p class="message">
               Already registered? <a href="#">Sign In</a>
             </p>
@@ -39,10 +32,10 @@ class Login extends Component {
     );
   }
 }
-
-
 export default Login;
 
 // $('.message a').click(function(){
 //   $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
 // });
+
+        
