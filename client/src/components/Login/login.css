@@ -55,12 +55,12 @@
 .form .register-form {
   display: none;
 }
-.container {
+/* .container {
   position: relative;
   z-index: 1;
   max-width: 300px;
   margin: 0 auto;
-}
+} */
 .container:before, .container:after {
   content: "";
   display: block;
@@ -89,7 +89,7 @@
   color: #EF3B3A;
 }
 body {
-  background: #ffffff; /* fallback for old browsers */
+  background: #ffffff;
   background: -webkit-linear-gradient(right, #ffffff, #ffffff);
   background: -moz-linear-gradient(right, #ffffff, #ffffff);
   background: -o-linear-gradient(right, #ffffff, #ffffff);

@@ -13,3 +13,5 @@ export default function StickyNotes(props) {
 // $("#create").click(function() {
 //   $(this).before("<textarea></textarea>");
 // });
+
+
