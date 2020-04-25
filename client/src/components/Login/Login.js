@@ -13,17 +13,9 @@ class Login extends Component {
             <input type="password" placeholder="password" />
             <input type="text" placeholder="email address" />
 
+
     
-            {/* <button>create</button> */}
-            
-            <a
-          href="/role"
-          class="btn btn-primary btn-lg active"
-          role="button"
-          aria-pressed="true"
-            ></a>
-        
-          
+            <button>create</button>
             <p class="message">
               Already registered? <a href="#">Sign In</a>
             </p>
@@ -48,4 +40,8 @@ export default Login;
 //   $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
 // });
 
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 504152987eb118e7362667ff21439056411b3ce7
