@@ -10,7 +10,6 @@ AOS.init({
   duration: 1200
 });
 
-// jaslkfdsld
 
 function Dashboard() {
   return (
