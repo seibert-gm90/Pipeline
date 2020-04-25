@@ -19,6 +19,7 @@ class Login extends Component {
           class="btn btn-primary btn-lg active"
           role="button"
           aria-pressed="true"
+
         ></a>
         
             {/* <button>create</button> */}
@@ -41,8 +42,10 @@ class Login extends Component {
 }
 
 
+
 export default Login;
 
 // $('.message a').click(function(){
 //   $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
 // });
+

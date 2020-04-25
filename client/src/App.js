@@ -36,7 +36,7 @@ class App extends Component {
       </span>
     </Router>
   );
-}
+};
 }
 
-export default App
+export default App 
