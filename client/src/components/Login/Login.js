@@ -13,6 +13,7 @@ class Login extends Component {
             <input type="password" placeholder="password" />
             <input type="text" placeholder="email address" />
 
+
     
             <button>create</button>
             <p class="message">
@@ -32,10 +33,11 @@ class Login extends Component {
     );
   }
 }
+
 export default Login;
 
 // $('.message a').click(function(){
 //   $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
 // });
 
-        
+
