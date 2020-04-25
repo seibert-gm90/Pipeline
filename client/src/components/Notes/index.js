@@ -2,7 +2,6 @@ import React from "react";
 import "./notes.css";
 
 export default function StickyNotes(props) {
-  render(){
   return (
     <>
 
