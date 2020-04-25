@@ -40,8 +40,3 @@ export default Login;
 //   $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
 // });
 
-<<<<<<< HEAD
-        
-=======
-
->>>>>>> 504152987eb118e7362667ff21439056411b3ce7

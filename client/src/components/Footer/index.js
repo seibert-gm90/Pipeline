@@ -9,7 +9,7 @@ function Footer() {
           <span>Useful Links</span>
           <ul>
             <li className="list">
-              <a href="">Contact Us</a>
+              <a href="mailto:thisisfake@gmail.com">Contact Us</a>
             </li>
             <li className="list">
               <a href="">Careers</a>
