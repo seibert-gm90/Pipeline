@@ -11,7 +11,8 @@ function RoleSelect() {
   return (
     <div className="dash">
       <div className="container panel">
-        <h1 className="move">Select role to continue</h1>
+        <h1 className="move">Select role to continue
+        </h1>
       </div>
 
       <div className="item right" data-aos="fade-right">
