@@ -10,16 +10,11 @@ export default function StickyNotes(props) {
       {/* <div id="create">+</div> */}
     </div>
     <div id="create" className="button">
-    <button onClick={(e) => this.before(e)} className="waves-effect blue waves-light btn">+</button>
+    <button onClick={(e) => this.before(e)}>+</button>
     </div>
 
     </>
   );
 };
-
-
-// $("#create").click(function() {
-//   $(this).before("<textarea></textarea>");
-// });
 
 
