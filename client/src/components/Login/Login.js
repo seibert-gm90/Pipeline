@@ -1,10 +1,8 @@
 import React, { Component } from "react";
-import { useHistory } from "react-router-dom"
+import { useHistory } from "react-router-dom";
 // import { Button, FormGroup, FormControl, FormLabel } from "react-bootstrap";
 
 import "./login.css";
-
-
 
 class Login extends Component {
   render() {
@@ -22,12 +20,9 @@ class Login extends Component {
         >
           Login
         </a>
-       
       </form>
     );
   }
 }
 
 export default Login;
-
-
