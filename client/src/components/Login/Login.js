@@ -14,7 +14,16 @@ class Login extends Component {
             <input type="text" placeholder="email address" />
 
     
-            <button>create</button>
+            {/* <button>create</button> */}
+            
+            <a
+          href="/role"
+          class="btn btn-primary btn-lg active"
+          role="button"
+          aria-pressed="true"
+            ></a>
+        
+          
             <p class="message">
               Already registered? <a href="#">Sign In</a>
             </p>
@@ -32,6 +41,7 @@ class Login extends Component {
     );
   }
 }
+
 export default Login;
 
 // $('.message a').click(function(){
