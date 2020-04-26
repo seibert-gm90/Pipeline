@@ -14,7 +14,7 @@ https://desolate-fortress-64967.herokuapp.com/
 
 ## Description
 
-An app that stores tasks for different parts of the rental application process, and allows people to mark their tasks as complete and leave notes.  The functioning AWS Cognito login can be viewed on the "Presentation" branch of this project.
+An app that stores tasks for different parts of the rental application process, and allows people to mark their tasks as complete and leave notes.
 
 | Technologies used:                                                                        |
 | ----------------------------------------------------------------------------------------- |
