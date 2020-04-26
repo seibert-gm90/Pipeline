@@ -1,7 +1,7 @@
 # Pipeline
 
 
-An app that tracks where clients are in the rental/application process.  We have reattached the AWS Cognito login function but it has not currently been pushed to heroku.
+An app that tracks where clients are in the rental/application process.  We have reattached the AWS Cognito login function, modified the hamburger so links lead to the notes and dashboard page but these changes have not currently been pushed to heroku.   Run an npm start on your current machine to view the changes.  It looks better mobile! 
 
 
 
