@@ -12,17 +12,17 @@ function Header() {
           <span></span>
 
           <ul id="menu">
-          <a href="#">
+          <a href="/home">
               <li>Dashboard</li>
             </a>
-            <a href="#">
-              <li>Calendar</li>
+            <a href="/Calendar">
+              <li>Calendar (coming soon!)</li>
             </a>
-            <a href="#">
+            <a href="/notes">
               <li>Notes</li>
             </a>
             <a href="#">
-              <li>Chat (Coming Soon)</li>
+              <li>Chat (Coming soon!)</li>
             </a>
             <a href="#">
               <li>Log Out</li>
