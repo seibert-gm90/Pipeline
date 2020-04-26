@@ -24,7 +24,7 @@ function Header() {
             <a href="#">
               <li>Chat (Coming soon!)</li>
             </a>
-            <a href="#">
+            <a href="/login">
               <li>Log Out</li>
             </a>
           </ul>

@@ -19,10 +19,10 @@ function Dashboard() {
         <ProgressTracker />
       </div>
       <div className="item right" data-aos="fade-right">
-        Data Here
+        Lease Sent To Client
       </div>
       <div className="item left" data-aos="fade-left">
-        Data Here
+        Lease Signed
       </div>
     </div>
   );
