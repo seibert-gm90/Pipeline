@@ -8,6 +8,6 @@ const assistantSchema = new Schema({
   date: { type: Date, default: Date.now }
 });
 
-const Assistant = mongoose.model("Assistant", assistantSchema);
+const Broker = mongoose.model("Broker", brokerSchema);
 
-module.exports = Assistant;
+module.exports = Broker;
