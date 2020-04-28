@@ -4,7 +4,10 @@
   "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {
+    "@devexpress/dx-react-scheduler": "^2.6.2",
     "aos": "^2.3.4",
+    "aws-amplify": "^3.0.9",
+    "mongoose": "^5.9.10",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.0",
     "react-calendar": "^3.0.1",

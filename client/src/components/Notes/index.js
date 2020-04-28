@@ -1,5 +1,5 @@
 import React from "react";
-import "./notes.css";
+import "./index.css";
 
 export default function StickyNotes(props) {
   return (

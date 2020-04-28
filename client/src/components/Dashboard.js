@@ -2,13 +2,14 @@ import React from "react";
 import AOS from "aos";
 import "./dashboard/dashboard.css";
 import ProgressTracker from "./progress tracker";
-// import StickyNotes from "./Notes";
+import StickyNotes from "./Notes";
 
 
 AOS.init();
 AOS.init({
   duration: 1200
 });
+
 
 function Dashboard() {
   return (
@@ -18,10 +19,10 @@ function Dashboard() {
         <ProgressTracker />
       </div>
       <div className="item right" data-aos="fade-right">
-        Data Here
+        Lease Sent To Client
       </div>
       <div className="item left" data-aos="fade-left">
-        Data Here
+        Lease Signed
       </div>
     </div>
   );
