@@ -6,6 +6,8 @@ An app that tracks where clients are in the rental/application process.  We have
 Sample login: grisharkramer@gmail.com
 Sample Password: fKJo9MuM
 
+![](React App.gif)
+
 
 
 # Deployed
