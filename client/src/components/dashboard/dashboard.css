@@ -60,3 +60,14 @@
   line-height: 17px;
   padding-bottom: 4px;
 }
+.fa-sms{
+  color: teal;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.text{
+  font-family: 'Open Sans', sans-serif;
+  margin-top: -53px;
+  font-size: 1px;
+}
