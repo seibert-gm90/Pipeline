@@ -5,8 +5,10 @@ import "./App.css";
 import Login from "./components/Login/Login";
 import Home from "./pages/Home";
 import StickyNotes from "./components/Notes"
+
 import Demo from "./components/Calendar/demo"
 import Week from "./components/Week/demo"
+
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import RoleSelect from "./components/RoleSelect"
@@ -16,9 +18,6 @@ import { AppContext } from "./libs/contextLib";
 
 
 class App extends Component {
-
-  
-
   render(){
   return (
     <Router>
