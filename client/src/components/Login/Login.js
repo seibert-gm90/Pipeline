@@ -61,6 +61,9 @@ export default function Login() {
         <Button block bssize="large" disabled={!validateForm()} type="submit">
           Login
         </Button>
+        <Button block bssize="large" disabled={!validateForm()} type="submit">
+          Sign Up
+        </Button>
       </form>
     </div>
   );

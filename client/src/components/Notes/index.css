@@ -8,9 +8,15 @@ body {
   margin: 30px;
 }
 
+.notecontainer{
+  align-items: center;
+  text-align: center;
+  min-height: 400px;
+  padding-top: 27px;
+}
+
 #create,
 textarea {
-  float: left;
   padding: 25px 25px 40px;
   margin: 0 20px 20px 0;
   width: 250px;
@@ -19,7 +25,7 @@ textarea {
 
 #create {
   user-select: none;
-  padding: 20px;
+  padding: 0px;
   border-radius: 20px;
   text-align: center;
   border: 15px solid rgba(0, 0, 0, 0.1);
@@ -27,6 +33,7 @@ textarea {
   color: rgba(0, 0, 0, 0.1);
   font: 220px "Helvetica", sans-serif;
   line-height: 185px;
+  float: right;
 }
 
 #create:hover {
