@@ -16,9 +16,6 @@ import { AppContext } from "./libs/contextLib";
 
 
 class App extends Component {
-
-  
-
   render(){
   return (
     <Router>

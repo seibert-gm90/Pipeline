@@ -6,5 +6,18 @@
   .Login form {
     margin: 0 auto;
     max-width: 320px;
+    min-height: 325px;
+    padding-top: 20px;
   }
+  .btn-primary{
+    color: #fff;
+    background-color: #81cac7 !important;
+    border-color: #81cac7 !important
+  }
+}
+.btn-primary:disabled{
+  opacity: 1;
+}
+.btn-primary:enabled{
+  opacity: 0.5;
 }

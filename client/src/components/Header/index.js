@@ -32,7 +32,7 @@ function Header() {
       </nav>
 
       <div className="container fluid head">
-        <img src="logo.png" alt="logo" />
+        <img src="logo.png" alt="logo" href="/home" />
         <a href="" className="logout">
           Logout
         </a>
