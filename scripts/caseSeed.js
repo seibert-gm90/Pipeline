@@ -5,7 +5,7 @@
   email: "housecall@gmail.com",
   broker:"", 
   property:"1906 Grove Ave",
-  date: { type: Date, default: Date.now }
+  date: new Date(Date.now())
   }, 
   {
   name: "Grisha Kramer",
@@ -13,7 +13,7 @@
   email: "kramer@gmail.com",
   broker:"", 
   property:"1900 Cary Ave",
-  date: { type: Date, default: Date.now }
+  date: new Date(Date.now())
   }, 
   {
   name: "Lauren Minton",
@@ -21,7 +21,7 @@
   email: "minton@gmail.com",
   broker:"", 
   property:"4576 Grove Ave",
-  date: { type: Date, default: Date.now }
+  date: new Date(Date.now())
   }, 
 
   ]
