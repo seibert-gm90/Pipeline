@@ -3,8 +3,8 @@
 
 An app that tracks where clients are in the rental/application process.  We have reattached the AWS Cognito login function, modified the hamburger so links lead to the notes and dashboard page but these changes have not currently been pushed to heroku.   Run an npm start on your current machine to view the changes.  It looks better mobile!
 
-Sample login: grisharkramer@gmail.com
-Sample Password: fKJo9MuM
+Sample login: grishinka@gmail.com
+Sample Password: P!peline99
 
 ![](React App.gif)
 
