@@ -1,12 +1,10 @@
 const router = require("express").Router();
-const pipelineController = require("../../controllers/pipelineController");
+const pipelineController = require("../../controllers/assistantController");
 
-// Matches with "/api/books"
 router.route("/pipeline")
   .get(pipelineController.findAll)
   .post(pipelineController.createAssistant);
 
-// Matches with "/api/books/:id"
 router
   .route("/:id")
   .get(pipelineController.findById)

@@ -6,7 +6,7 @@ const checklistBroker = new Schema({
   securityDeposit: {type: Boolean, required:true},
   date: { type: Date, default: Date.now }
 });
-
+// klsaklfjadklfj
 const BrokerChkLst = mongoose.model("Broker Checklist", checklistBroker);
 
 module.exports = BrokerChkLst;

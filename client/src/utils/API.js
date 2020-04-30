@@ -3,11 +3,11 @@ import axios from "axios";
 // Export an object containing methods we'll use for accessing the Dog.Ceo API
 
 export default {
-  getAssistantProgress: function() {
-    return axios.get("/api/assistant/progress");
+  getCases: function() {
+    return axios.get("/api/cases");
   },
-  getBrokerProgress: function(breed) {
-    return axios.get("/api/broker/progress" );
-  },
+  newCase: function(caseData){
+    return axios.post("/api/cases", caseData)
+  }
 };
  
