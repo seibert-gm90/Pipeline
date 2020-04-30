@@ -19,6 +19,11 @@ const schedulerData = [
     endDate: "2020-04-30T13:30",
     title: "Lease signing",
   },
+  {
+    startDate: "2020-04-30T17:00",
+    endDate: "2020-04-30T18:30",
+    title: "Check with client",
+  },
 ];
 
 export default () => (
@@ -31,7 +36,7 @@ export default () => (
       />
       <DayView
         startDayHour={9}
-        endDayHour={14}
+        endDayHour={20}
       />
       <Appointments />
     </Scheduler>
