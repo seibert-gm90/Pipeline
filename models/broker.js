@@ -1,13 +1,13 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const assistantSchema = new Schema({
+const brokerSchema = new Schema({
   name: { type: String, required: true },
   phoneNumber: {type: String, required:true},
   email: {type: String, required:true},
   date: { type: Date, default: Date.now }
 });
 
-const Assistant = mongoose.model("Assistant", assistantSchema);
+const Broker = mongoose.model("Broker", brokerSchema);
 
-module.exports = Assistant;
+module.exports = Broker;

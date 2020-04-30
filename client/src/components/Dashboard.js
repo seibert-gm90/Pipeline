@@ -1,7 +1,7 @@
 import React from "react"; 
 import AOS from "aos";
 import "./dashboard/dashboard.css";
-import ProgressTracker from "./progress tracker";
+import ProgressTracker from "./progressTracker";
 import StickyNotes from "./Notes";
 
 
