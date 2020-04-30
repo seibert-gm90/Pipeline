@@ -7,10 +7,18 @@ import {
   Appointments,
 } from '@devexpress/dx-react-scheduler-material-ui';
 
-const currentDate = '2018-11-01';
+const currentDate = '2020-04-30';
 const schedulerData = [
-  { startDate: '2018-11-01T09:45', endDate: '2018-11-01T11:00', title: 'Building tour' },
-  { startDate: '2018-11-01T12:00', endDate: '2018-11-01T13:30', title: 'Lease signing' },
+  {
+    startDate: "2020-04-30T09:45",
+    endDate: "2020-04-30T11:00",
+    title: "Building tour",
+  },
+  {
+    startDate: "2020-04-30T12:00",
+    endDate: "2020-04-30T13:30",
+    title: "Lease signing",
+  },
 ];
 
 export default () => (
