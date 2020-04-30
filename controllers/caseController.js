@@ -3,7 +3,6 @@ const db = require("../models");
 
 module.exports = {
   findAll: function(req, res) {
-    console.log("hooray")
     db.Case.find({})
       .then(dbModel => {
         console.log("dbmodel",dbModel)
