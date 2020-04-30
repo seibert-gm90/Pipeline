@@ -5,7 +5,9 @@ import "./App.css";
 import Login from "./components/Login/Login";
 import Home from "./pages/Home";
 import StickyNotes from "./components/Notes"
-// import Demo from "./components/Scheduler"
+
+import Demo from "./components/Calendar/demo"
+import Week from "./components/Week/demo"
 
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -28,7 +30,8 @@ class App extends Component {
         <Route path="/home" component={Home} />
         <Route path="/role" component={RoleSelect} />
         <Route path="/notes" component={StickyNotes} />
-        {/* <Route path="/calendar" component={Demo} /> */}
+        <Route path="/calendar" component={Demo} />
+        <Route path="/week" component={Week} />
       </div>
       <span>
         <div>
