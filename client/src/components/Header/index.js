@@ -24,7 +24,7 @@ function Header() {
             <a href="/notes">
               <li>Notes</li>
             </a>
-            <a href="#">
+            <a href="/chat">
               <li>Chat (Coming soon!)</li>
             </a>
             <a href="/login">
