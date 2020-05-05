@@ -1,10 +1,16 @@
 # Pipeline
 
 
-An app that tracks where clients are in the rental/application process.  Users can track multi-step tasks, leave notes, and schedule appointments or tasks.  
+An app that tracks where clients are in the rental/application process.  Users can track multi-step tasks, leave notes, and schedule appointments or tasks. 
 
+
+# AWS Cognito
 Sample login: grishinka@gmail.com
 Sample Password: P!peline99
+
+![](AWSCognito.gif)
+
+
 
 ![](React App.gif)
 
