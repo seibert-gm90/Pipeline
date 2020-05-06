@@ -12,7 +12,7 @@ Sample Password: P!peline99
 
 
 
-![](React App.gif)
+![](React_App.gif)
 
 
 
