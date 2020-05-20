@@ -5,6 +5,7 @@ import "./App.css";
 import Login from "./components/Login/Login";
 import Home from "./pages/Home";
 import StickyNotes from "./components/Notes"
+import Chat from "./components/Chat/Chat"
 
 import Demo from "./components/Calendar/demo"
 import Week from "./components/Week/demo"
@@ -32,6 +33,7 @@ class App extends Component {
         <Route path="/notes" component={StickyNotes} />
         <Route path="/calendar" component={Demo} />
         <Route path="/week" component={Week} />
+        <Route path="/chat" component={Chat} />
       </div>
       <span>
         <div>
