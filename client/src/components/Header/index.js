@@ -16,16 +16,16 @@ function Header() {
               <li>Dashboard</li>
             </a>
             <a href="/Calendar">
-              <li>Daily Calendar (coming soon!)</li>
+              <li>Daily Calendar</li>
             </a>
             <a href="/Week">
-              <li>Weekly Calendar (coming soon!)</li>
+              <li>Weekly Calendar</li>
             </a>
             <a href="/notes">
               <li>Notes</li>
             </a>
-            <a href="#">
-              <li>Chat (Coming soon!)</li>
+            <a href="/chat">
+              <li>Chat</li>
             </a>
             <a href="/login">
               <li>Log Out</li>

@@ -32,6 +32,9 @@
     "mongoose": "^5.9.10",
     "node": "13.10.1",
     "react": "^16.13.1",
+    "react-chat-widget": "^3.0.0",
+    "react-transition-group": "^4.3.0",
+    "serve": "^11.3.0"
     "react-transition-group": "^4.3.0"
   },
   "engines": {
