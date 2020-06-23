@@ -24,9 +24,9 @@ function Header() {
             <a href="/notes">
               <li>Notes</li>
             </a>
-            <a href="/chat">
+            {/* <a href="/chat">
               <li>Chat</li>
-            </a>
+            </a> */}
             <a href="/login">
               <li>Log Out</li>
             </a>
@@ -36,7 +36,7 @@ function Header() {
 
       <div className="container fluid head">
         <img src="logo.png" alt="logo" href="/home" />
-        <a href="" className="logout">
+        <a href="/login" className="logout">
           Logout
         </a>
       </div>

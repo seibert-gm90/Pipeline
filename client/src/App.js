@@ -32,8 +32,8 @@ class App extends Component {
         <Route path="/role" component={RoleSelect} />
         <Route path="/notes" component={StickyNotes} />
         <Route path="/calendar" component={Demo} />
-        <Route path="/week" component={Week} />
-        <Route path="/chat" component={Chat} />
+        <Route path="/week" component={Week}  />
+        <Chat />
       </div>
       <span>
         <div>
