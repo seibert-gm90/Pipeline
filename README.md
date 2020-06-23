@@ -6,7 +6,7 @@ An app that tracks where clients are in the rental/application process.  Users c
 
 # AWS Cognito
 Sample login: grishinka@gmail.com
-Sample Password: P!peline99
+Sample Password: P!peline2020
 
 ![](AWSCognito.gif)
 
