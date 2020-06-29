@@ -12,16 +12,20 @@ function Footer() {
               <a href="mailto:thisisfake@gmail.com">Contact Us</a>
             </li>
             <li className="list">
-              <a href="">About Pipeline</a>
+              <a href="https://github.com/seibert-gm90/Pipeline">
+                About Pipeline
+              </a>
             </li>
             {/* <li className="list">
               <a href="">Privacy &amp; Security</a>
             </li> */}
             <li className="list">
-              <a href="">Careers</a>
+              <a href="https://github.com/seibert-gm90/Pipeline">Careers</a>
             </li>
             <li className="list">
-              <a href="">Our Developers</a>
+              <a href="https://github.com/seibert-gm90/Pipeline/projects/1">
+                Our Developers
+              </a>
             </li>
           </ul>
         </p>
@@ -35,7 +39,9 @@ function Footer() {
             <li className="list">Richmond, VA</li>
             <li className="list">23173</li>
             <li className="list google">
-              <a href="https://www.google.com/maps/place/410+Westhampton+Way,+Richmond,+VA+23173/@37.5751669,-77.5429033,17z/data=!4m13!1m7!3m6!1s0x89b114a18c3fffff:0x1da45f9a0c6f393b!2s410+Westhampton+Way,+Richmond,+VA+23173!3b1!8m2!3d37.5751669!4d-77.5407146!3m4!1s0x89b114a18c3fffff:0x1da45f9a0c6f393b!8m2!3d37.5751669!4d-77.5407146">View on Google Maps</a>
+              <a href="https://www.google.com/maps/place/410+Westhampton+Way,+Richmond,+VA+23173/@37.5751669,-77.5429033,17z/data=!4m13!1m7!3m6!1s0x89b114a18c3fffff:0x1da45f9a0c6f393b!2s410+Westhampton+Way,+Richmond,+VA+23173!3b1!8m2!3d37.5751669!4d-77.5407146!3m4!1s0x89b114a18c3fffff:0x1da45f9a0c6f393b!8m2!3d37.5751669!4d-77.5407146">
+                View on Google Maps
+              </a>
             </li>
           </ul>
         </p>
