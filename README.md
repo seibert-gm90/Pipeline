@@ -20,7 +20,7 @@ Sample Password: P!peline2020
 
 The app is deployed at:
 
-https://desolate-fortress-64967.herokuapp.com/
+https://pipelinetasks.herokuapp.com/
 
 
 ## Description
